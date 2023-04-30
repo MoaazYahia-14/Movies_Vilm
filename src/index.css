@@ -1,13 +1,52 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+@font-face{
+  font-family: DMSans-Bold;
+  src: url(./Fonts/DMSans-Bold.ttf);
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face{
+  font-family: DMSans;
+  src: url(./Fonts/DMSans-Regular.ttf);
+}
+@font-face{
+  font-family: Aquire;
+  src: url(./Fonts/Aquire-BW0ox.otf);
+}
+@font-face{
+  font-family: Aquire-Bold;
+  src: url(./Fonts/AquireBold-8Ma60.otf);
+}
+@font-face{
+  font-family: DMSans-Regular;
+  src: url(./Fonts/DMSans-Regular.ttf);
+}
+/* Ganeral Style */
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.fy-JosefinSans
+{
+  font-family: 'Josefin Sans', sans-serif;
+}
+.fy-Aquire
+{
+  font-family: Aquire;
+}
+.fy-Aquire-bold
+{
+  font-family: Aquire-Bold;
+}
+.fy-DMSans-Bold
+{
+  font-family: DMSans-Bold;
+}
+.fy-DMSans
+{
+  font-family: DMSans;
 }

@@ -1,0 +1,69 @@
+.LoginSection
+{
+    position: relative;
+    background-image: url(../../images/PublicBG.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.loginForm
+{
+    background-color: rgba(0, 0, 0, 0.637);
+    border-radius: 20px;
+    box-shadow: -2px -4px 6px rgb(255, 34, 34);
+}
+
+.leftSide
+{
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.123);
+    border-radius: 20px;
+}
+
+.haveAcc
+{
+    font-size: 12px;
+}
+.haveAcc:hover
+{
+    color: white;
+    filter: drop-shadow(3px 2px 1.5px red);
+}
+.loginForm form ::placeholder
+{
+    color: rgba(255, 255, 255, 0.87);
+    font-size: 13px;    
+    font-family: DMSans-Bold;
+}
+.loginForm form input
+{
+    padding: 3px 5px;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    font-family: DMSans;
+}
+.loginForm form input:focus
+{
+    color: white;
+    background-color: transparent;
+    border-color: transparent;
+    outline: 0;
+    box-shadow: 0 0 0 0.15rem rgba(255, 1, 1, 0.4);
+}
+
+.brandName P .SmallCharacter
+{
+    color: white;
+    font-size: 110px;
+    letter-spacing: 5px;
+    font-family: Aquire-Bold;
+    filter: drop-shadow(4px 3px 1.5px red);
+}
+.brandName p .CapitalCharacter
+{
+    color: #ff0000;;
+    font-size: 150px;
+    font-family: Aquire-Bold;
+    filter: drop-shadow(4px 3px 1.5px white)    ;
+}

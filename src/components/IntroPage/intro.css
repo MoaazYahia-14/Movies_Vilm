@@ -1,0 +1,111 @@
+:root
+{
+    --color:#1e9bff;
+}
+.introHeader
+{
+    position: relative;
+    height: 100vh;
+    background-image: url(../../images/introPageBG.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Blur
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.headerDesc 
+{
+    margin: 10px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.425);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+a
+{
+    text-decoration: none;
+}
+.headerDesc p
+{
+    width: 70%;
+    font-size: 40px;
+}
+.nav
+{
+    width: 100%;
+    padding: 1px 25px; 
+    position: absolute;
+    /* background-color: white; */
+    top: 5px;
+    z-index: 22222;
+}
+.nav .brandIcon h3 .SmallCharacter
+{
+    color: white;
+    font-size: 25px;
+    letter-spacing: 5px;
+    font-family: Aquire-Bold;
+    filter: drop-shadow(4px 3px 1.5px red);
+}
+.nav .brandIcon h3 .CapitalCharacter
+{
+    color: #ff0000;;
+    font-size: 35px;
+    font-family: Aquire-Bold;
+    filter: drop-shadow(4px 3px 1.5px white)    ;
+}
+.nav .registerLink h3 .SmallCharacter,
+.nav .registerLink h3 .CapitalCharacter
+{
+    color: white;
+    font-size: 17px;
+    font-family: DMSans-Bold;
+    filter: drop-shadow(4px 3px 1.5px red);
+}
+/* Button */
+.wrap {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button {
+    min-width: 250px;
+    min-height: 30px;
+    font-size: 18px;
+    letter-spacing: 1.3px;
+    font-weight: 500;
+    color: White;
+    background: #ff0000;
+    background: linear-gradient(90deg, rgb(199, 0, 0) 0%, rgb(192, 17, 17) 100%);
+    border: none;
+    border-radius: 1000px;
+    box-shadow: 17px 10px 30px rgba(255, 46, 46, 0.80);
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    padding: 10px;
+}
+.button:hover, .button:focus {
+    color: white;
+    transform: translateY(-6px);
+}
+button:hover::before, button:focus::before {
+    opacity: 1;
+}
+button:hover::after, button:focus::after {
+    animation: none;
+    display: none;
+}
